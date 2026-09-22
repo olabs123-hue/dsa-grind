@@ -1,0 +1,17 @@
+# ======================================
+# LeetCode Problem: concatenation of array
+# Language: python3
+# Link: https://leetcode.com/problems/concatenation-of-array/
+# Synced by: LinkCode
+# Date: 9/22/2026, 5:16:25 PM
+# ======================================
+
+
+class Solution:
+    def getConcatenation(self, nums: List[int]) -> List[int]:
+        n = len(nums)
+        ans = [0] * (2 * n)
+        for i in range(n):
+            ans[i] = nums[i]
+            ans[i + n] = nums[i]
+        return ans
