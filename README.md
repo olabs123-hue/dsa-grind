@@ -9,6 +9,17 @@ Personal data structures and algorithms practice repository. Python solutions ar
 - Files are source-code practice evidence. **27 files does not independently prove 27 accepted online-judge submissions.**
 - **No LeetCode/Codeforces contest rating is claimed here.** Add a verified public contest profile and rating only once available.
 
+## Reproducible local file count
+
+Run `python scripts/count_solutions.py` from the repository root to count
+tracked Python practice files in `python/`. The script prints JSON and
+explicitly reports the online-judge accepted count and contest rating as
+**unverified**; it does not authenticate against LeetCode or Codeforces.
+
+Repository visibility remains **private**. Do not present this repository as
+a publicly accessible source of portfolio evidence unless you later choose
+to change visibility.
+
 ## Solution index
 
 Browse the [Python practice folder](python/) for individual implementations, or run applicable solutions/tests locally. Automated acceptance verification has **not** been established for all files.
